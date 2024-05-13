@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            margin: 0;
+        }
         h1{
             text-align: center;
         }
         a{
             color: black;
             text-decoration: none;
-        }
-        a:hover{
-            font-size: large;
         }
         .container{
             position: relative;
@@ -23,21 +23,145 @@
         }
         .centerText{
             position: absolute;
-            top: 50%;
+            top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 50px
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            font-size: 100px;
+        }
+        .bannerText{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+        .navigationA{
+            position: absolute;
+            top: 5%;
+            right: 21%;
+            transform: translate(-50%, -50%);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+        .navigationB{
+            position: absolute;
+            top: 5%;
+            right: 14%;
+            transform: translate(-50%, -50%);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+        .navigationC{
+            position: absolute;
+            top: 5%;
+            right: 9%;
+            transform: translate(-50%, -50%);
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+        }
+        .picBox{
+            width: 250px;
+            height: 250px;
+            box-shadow: 0 4px 8px 0;
+            text-align: center;
+            margin-left: 12%;
+            margin-top: 50px;
+            float:inline-start;
+        }
+        .picText{
+            padding: 5px;
+        }
+        .frameBox{
+            height: 400px;
+            margin-top: 700px;
+            background-color: #ebedef;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="/Activity-03/images/oahu.jpg" alt="Picture with trees and a woman" style="width: 100%; height: 100vh; border: none;">
-            <div class="centerText">Living in Oahu</div>
+            <img src="/Activity-03/images/waikiki.jpg" alt="Waikiki Beach" style="width: 100%; height: 100vh; filter: brightness(50%);">
+            <div class="navigationA"><a href="/Activity-03/index.html" style="color: aliceblue;">Home</a></div>
+            <div class="navigationB"><a href="/Activity-03/index.html" style="color: aliceblue;">Contact</a></div>
+            <div class="navigationC"><a href="/Activity-03/index.html" style="color: aliceblue;">About</a></div>
+            <div class="centerText">Life in Hawaii</div>
+            <div class="bannerText">"Welcome to Hawaii, the enchanting archipelago where vibrant cultures, 
+                breathtaking landscapes, and the spirit of Aloha await at every turn. From the lush rainforests of 
+                Kauai to the volcanic majesty of the Big Island, Hawaii offers an unparalleled blend of natural beauty 
+                and adventure. Dive into an exploration of paradise, where each island promises its own unique wonders and timeless memories."</div>
         </div>
     </header>
+    <section>
+        <h1 style="font-family:Arial, Helvetica, sans-serif; font-size: 35px; margin-top: 90px; text-decoration: wavy; color: #43C6DB;">
+            Begin Your Journey
+        </h1>
+        <p style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #43C6DB; font-size:;"><i>
+            Places with the highest rating from tourists within the past year
+        </i></p>
+    </section>
+    <section>
+        <div class="picBox">
+            <img src="/Activity-03/images/pearlHarbor.jpg" alt="Pearl Harbor" style="width: 100%;">
+            <div class="picText">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: larger;">
+                    Pearl Harbor, Oahu
+                </p>
+            </div>
+        </div>
+        <div class="picBox">
+            <img src="/Activity-03/images/northShore.jpg" alt="Drone shot of a beach" style="width: 100%; height: 70%;">
+            <div class="picText">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: larger;">
+                    North Shore, Oahu
+                </p>
+            </div>
+        </div>
+        <div class="picBox">
+            <img src="/Activity-03/images/waikikiBeach.jpg" alt="Beach with Hotel" style="width: 100%; height: 70%;">
+            <div class="picText">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: larger;">
+                    Waikiki, Honolulu
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="picBox">
+            <img src="/Activity-03/images/naPaliKauai.jpg" alt="Mountain with rock formation and sea" style="width: 100%;">
+            <div class="picText">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: larger;">
+                    Na Pali Coast State WIlderness Park, Kauai
+                </p>
+            </div>
+        </div>
+        <div class="picBox">
+            <img src="/Activity-03/images/mauiNational.jpg" alt="Mountain formation with clouds" style="width: 100%; height: 70%;">
+            <div class="picText">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: larger;">
+                    Haleakala National Park, Maui
+                </p>
+            </div>
+        </div>
+        <div class="picBox">
+            <img src="/Activity-03/images/hanaMaui.jpg" alt="Mountain with roadway and sea" style="width: 100%; height: 70%;">
+            <div class="picText">
+                <p style="font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: larger;">
+                    Road to Hana, Maui
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="frameBox">
+            <iframe src="https://youtube.com/embed/x1pxR7VD00A?feature=shared" frameborder="0" style="height: 300px; margin-left: 39%; margin-top: 50px;">
+            </iframe>
+        </div>
+    </section>
+    
 
 </body>
 </html>
