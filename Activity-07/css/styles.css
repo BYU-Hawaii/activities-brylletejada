@@ -1,0 +1,56 @@
+body{ /*sets the background color and margin space for the body of the page*/
+    background-color: #7f8c8d;
+    color: whitesmoke;
+    margin: 50px;
+}
+h1{ /* sets the text alignment, font, border and height for an h1 header */
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    height: 40px;
+}
+#mainHeader{ /*Sets a background color for text, alignment, height, font, size, and a rounded edge border for my main header*/
+    background: black;
+    text-align: center; 
+    height: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    border-radius: 3px;
+}
+footer{ /* sets a background color for the footer, define its height, text alignment, and a rounded edge border*/
+    background: black;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+section{ /* formats the sections in the page */
+    margin: 0 auto;
+    width: 100%;
+}
+img{ /* Sets a rounded radius, border, and shadow to images in the page */
+    border-radius: 15px;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0px 3px 3px 0px black;
+}
+a{ /* Sets the font color, font, and size for every links in the page */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.highlight{ /*This sets a background color with a rounded edge for my paragraph and also setting the font color, alignment, and style for the words. */
+    background-color: whitesmoke;
+    border-radius: 3px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+.micro-5-charted-regular { /* Add Google Font to embed in the webpage*/
+    font-family: "Micro 5 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+  
