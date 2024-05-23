@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.columnL{
+    float: left;
+    margin: 5px;
+    padding: 100px 10px 0px 300px;
+}
+.columnR{
+    float: right;
+    margin: 5px;
+    padding: 100px 300px 0px 10px;
+}
+figure img{
+    width: 100%;
+    border: 2px solid black;
+    margin: auto;
+}
+figure{
+    width: 300px;
+}
+figcaption{
+    font-style: italic;
+    font-size: small;
+}
