@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url('/FinalProject/images/space.jpg');
+    background-image: url('../images/space.jpg');
 }
 
 header{
@@ -136,6 +136,77 @@ h1{
     margin-top: 20px;
     font-size: 20px;
 }
+li{
+    font-family: cursive;
+    font-size: 14px;
+}
+a{
+    font-family: cursive;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+}
+
+/* ---------------------------------- FEEDBACK PAGE --------------------------------------- */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.feedback-form label {
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.feedback-form input, .feedback-form textarea, .feedback-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.feedback-form button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.feedback-form button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+/* Additional Pages */
+.funFactsList {
+    text-align: left;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.educationList {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+/*.content ul{
+    list-style-image: url('../images/rocket.gif');
+    display: block;
+    width: 100%;
+    height: auto;
+}*/
 
 @media(min-width: 768px){
     /* GRID */
@@ -204,6 +275,10 @@ h1{
         margin-top: 20px;
         font-size: 22px;
     }
+    li{
+        font-family: cursive;
+        font-size: 16px;
+    }
 
     /* FOOTER */
     footer{
@@ -240,6 +315,40 @@ h1{
     .aboutHead{
         font-weight: bold;
         font-size: 20px;
+    }
+    a{
+        font-family: cursive;
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* ---------------------------------- FEEDBACK PAGE --------------------------------------- */
+    .feedback-form label {
+        font-size: 16px;
+        font-family: cursive;
+    }
+    
+    .feedback-form input, .feedback-form textarea, .feedback-form select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: cursive;
+    }
+
+    /* Additional Pages */
+    .funFactsList {
+        text-align: left;
+        font-family: cursive;
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .educationList {
+        text-align: center;
+        font-family: cursive;
+        font-size: 20px;
+        padding: 10px 20px;
     }
 
 @media(min-width: 1024px){
@@ -310,6 +419,10 @@ h1{
         margin-top: 20px;
         font-size: 24px;
     }
+    li{
+        font-family: cursive;
+        font-size: 20px;
+    }
     /* FOOTER */
     footer{
         height: 30px;
@@ -345,6 +458,41 @@ h1{
         font-weight: bold;
         font-size: 22px;
     }
+    a{
+        font-family: cursive;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* ---------------------------------- FEEDBACK PAGE --------------------------------------- */
+    .feedback-form label {
+        font-size: 20px;
+        font-family: cursive;
+    }
+    
+    .feedback-form input, .feedback-form textarea, .feedback-form select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 20px;
+        font-family: cursive;
+    }
+
+    /* Additional Pages */
+.funFactsList {
+    text-align: left;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.educationList {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
 }
 
 
