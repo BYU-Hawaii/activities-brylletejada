@@ -19,17 +19,19 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>Fun Facts</h1>
-        <p class="mainPar">Discover some fun and interesting facts about our solar system!</p>
-        <ul class="funFactsList">
-            <li>Did you know that Venus is hotter than Mercury?</li>
-            <li>Jupiter has the biggest ocean of any planet, but it's made of liquid hydrogen!</li>
-            <li>Neptune has supersonic winds, which are the fastest in the solar system!</li>
-        </ul>
-        <a href="https://www.natgeokids.com/uk/discover/science/space/universe-facts/" target="_blank">Click here to know more fun facts about the universe!</a>
+        <h1>Space Game</h1>
+        <p class="mainPar">
+            Instructions: Press the left and right arrow to avoid the falling asteroids. Make sure to be far from the
+            asteroids so you won't get caught!
+        </p>
+        <div class="game-container">
+            <canvas id="gameCanvas"></canvas>
+            <button id="playAgainBtn" onclick="startGame()">Play Again</button>
+        </div>
     </main>
     <footer>
         &copy; Brylle Tejada 2024
     </footer>
+    <script src="scripts/game.js"></script>
 </body>
 </html>
